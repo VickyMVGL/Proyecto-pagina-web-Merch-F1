@@ -46,7 +46,7 @@ header {
 }
 
 .banner h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -166,4 +166,20 @@ button {
 }
 .galleria .galleria-container .galleria-item-3 img {
     width: 100%;
+}
+
+.footer-container{
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 50px 10%;
+
+}
+
+.footer-container a{
+    color: #d6d6d6;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-decoration: none;
 }

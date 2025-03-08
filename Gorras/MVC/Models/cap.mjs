@@ -73,7 +73,7 @@ export class CapsModels{
     }
 
     // Obtener una gorra por su id y nombre
-    static async getByPrice({id, name}){
+    static async getByIDAndPrice({id, name}){
         if(id && name){
             return caps.find(cap =>
                 cap.id === parseInt(id) && cap.name.toLowerCase() === name.toLowerCase()

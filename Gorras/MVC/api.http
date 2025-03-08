@@ -1,0 +1,20 @@
+### Obtener todas las gorras
+GET http://localhost:8585/caps
+
+### Obtener una gorra por su ID
+GET http://localhost:8585/caps/1
+
+### Obtener una gorra por su precio
+GET http://localhost:8585/caps/price/100
+
+### Obtener una gorra por su nombre
+GET http://localhost:8585/caps/name/Gorra de mercedes
+
+### Obtener una gorra por su exposor
+GET http://localhost:8585/caps/exposor/MERCEDES
+
+### Obtener una gorra por su id y precio
+GET http://localhost:8585/caps/1&price=100
+
+### Obtener una gorra por su id y nombre
+GET http://localhost:8585/caps/1&name=Gorra de mercedes

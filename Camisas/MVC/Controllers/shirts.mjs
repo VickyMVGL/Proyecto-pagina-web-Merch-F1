@@ -55,6 +55,39 @@ export class ShirtController{
                     });
                 }
             }
+            else{
+                return res.status(400).json({
+                    message: "El id no es valido"
+                });
+            }
+        }
+        catch(err){
+            return res.status(500).json({
+                message: "Error al obtener la camisa por id",
+                error: err.message
+            });
+        }
+    }
+
+    // obtener una camisa por su exposor
+    getByExposor = async ( req , res) => {
+        try{
+            const {exposor} = req.params;
+            if(exposor){
+                const shirtsExposor = await this.ShirtModels.getByExposor({exposor});
+                return res.status(200).json(shirtsExposor);
+            }
+            else{
+                return res.status(400).json({
+                    message: "El exposor no es valido"
+                });
+            }
+        }
+        catch(err){
+            return res.status(500).json({
+                message: "Error al obtener las camisas por exposor",
+                error: err.message
+            });
         }
     }
 }

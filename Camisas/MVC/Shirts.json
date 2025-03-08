@@ -4,7 +4,7 @@
         "name": "Camisa de Mclaren",
         "description": "Camisa de la escuderia Mclaren",
         "price": 100,
-        "image_shirt": "",
+        "imagen": "",
         "exposor": ["mclaren"]
     },
     {
@@ -12,7 +12,7 @@
         "name": "Camisa de Ferrari",
         "description": "Camisa de la escuderia Ferrari",
         "price": 100,
-        "image_shirt": "",
+        "imagen": "",
         "exposor": ["ferrari"]
     },
     {
@@ -20,7 +20,7 @@
         "name": "Camisa de Mercedes",
         "description": "Camisa de la escuderia Mercedes",
         "price": 100,
-        "image_shirt": "",
+        "imagen": "",
         "exposor": ["mercedes"]
     },
     {
@@ -28,7 +28,7 @@
         "name": "Camisa de Red Bull",
         "description": "Camisa de la escuderia Red Bull",
         "price": 100,
-        "image_shirt": "",
+        "imagen": "",
         "exposor": ["redbull"]
     }
 ]

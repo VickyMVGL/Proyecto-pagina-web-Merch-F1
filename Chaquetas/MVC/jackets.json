@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Chaqueta de red Bull",
+        "description": "Chaqueta de red Bull",
+        "price": 100,
+        "imagen": "",
+        "exposor": ["redbull"]
+    },
+    {
+        "id": 2,
+        "name": "Chaqueta de Ferrari",
+        "description": "Chaqueta de Ferrari",
+        "price": 100,
+        "imagen": "",
+        "exposor": ["ferrari"]
+    },
+    {
+        "id": 3,
+        "name": "Chaqueta de Mercedes",
+        "description": "Chaqueta de Mercedes",
+        "price": 100,
+        "imagen": "",
+        "exposor": ["mercedes"]
+    },
+    {
+        "id": 4,
+        "name": "Chaqueta de Mclaren",
+        "description": "Chaqueta de Mclaren",
+        "price": 100,
+        "imagen": "",
+        "exposor": ["mclaren"]
+    }
+]

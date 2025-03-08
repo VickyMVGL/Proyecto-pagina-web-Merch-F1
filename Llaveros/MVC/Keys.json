@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Llave de mercedes",
+        "price": 100,
+        "description": "Llave de mercedes con logo bordado",
+        "image": "",
+        "exposor": ["mercedes"]
+    }
+    ,
+    {
+        "id": 2,
+        "name": "Llave de ferrari",
+        "price": 200,
+        "description": "Llave de ferrari con logo bordado",
+        "image": "",
+        "exposor": ["ferrari"]
+    },
+    {
+        "id": 3,
+        "name": "Llave de porsche",
+        "price": 300,
+        "description": "Llave de porsche con logo bordado",
+        "image": "",
+        "exposor": ["porsche"]
+    }
+]

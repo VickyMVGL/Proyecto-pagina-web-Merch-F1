@@ -48,7 +48,7 @@ export class ShirtModels{
     }
 
     // Obtener una camisa por su id y precio
-    getByIDAndPrice = async ({id,price}) => {
+    static async getByIDAndPrice({id,price}){
         if(id && price){
             return shirts.filter(shirt =>
                 shirt.id == parseInt(id) && shirt.price == parseInt(price)
@@ -56,19 +56,6 @@ export class ShirtModels{
         }
         else{
             console.log("No se ha encontrado ninguna camisa con ese id y precio");
-            return null;
-        }
-    }
-
-    // Obtener una camisa por su nombre
-    getByName = async ({name_shirt}) =>{
-        if(name_shirt){
-            return shirts.filter(shirt =>
-                shirt.name_shirt.toLowerCase().includes(name_shirt.toLowerCase())
-            )
-        }
-        else{
-            console.log("No se ha encontrado ninguna camisa con ese nombre");
             return null;
         }
     }

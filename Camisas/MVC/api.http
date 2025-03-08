@@ -1,0 +1,16 @@
+### Obtener todas las camisas
+GET http://localhost:2005/shirts
+
+### Obtener una camisa por ID
+GET http://localhost:2005/shirts/1
+
+### Obtener una camisa por su precio
+GET http://localhost:2005/shirts/price/100
+
+### Obtener una camisa por su exposor
+GET http://localhost:2005/shirts/exposor/MERCEDES
+
+### Obtener una camisa por su id y precio
+GET http://localhost:2005/shirts/1&price=100
+
+

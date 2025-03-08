@@ -11,6 +11,6 @@ app.use(json());
 
 app.use('/shirts', ShirtRouter);
 
-app.listen(PORT => {
+app.listen(PORT, () => {
     console.log(`Servidor escuchando en http://localhost:${PORT}`);
 });

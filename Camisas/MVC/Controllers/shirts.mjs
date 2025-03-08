@@ -116,9 +116,9 @@ export class ShirtController{
     // obtener una camisa por su nombre
     getByName = async ( req , res) => {
         try{
-            const {name_shirt} = req.params;
-            if(name_shirt){
-                const shirtsName = await this.ShirtModels.getByName({name_shirt});
+            const {name} = req.params;
+            if(name){
+                const shirtsName = await this.ShirtModels.getByName({name});
                 return res.status(200).json(shirtsName);
             }
             else{
@@ -130,6 +130,28 @@ export class ShirtController{
         catch(err){
             return res.status(500).json({
                 message: "Error al obtener las camisas por nombre",
+                error: err.message
+            });
+        }
+    }
+
+    // obtener una camisa por su precio y exposor
+    getByPriceAndExposor = async ( req , res) => {
+        try{
+            const {price,exposor} = req.params;
+            if(price && exposor){
+                const shirtsPriceExposor = await this.ShirtModels.getByPriceAndExposor({price,exposor});
+                return res.status(200).json(shirtsPriceExposor);
+            }
+            else{
+                return res.status(400).json({
+                    message: "El precio o el exposor no son validos"
+                });
+            }
+        }
+        catch(err){
+            return res.status(500).json({
+                message: "Error al obtener las camisas por precio y exposor",
                 error: err.message
             });
         }

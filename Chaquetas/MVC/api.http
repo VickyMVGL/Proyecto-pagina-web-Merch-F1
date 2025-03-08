@@ -1,0 +1,14 @@
+### Obtener todas las chaquetas
+GET http://localhost:7575/jackets
+
+### Obtener una chaqueta por ID
+GET http://localhost:7575/jackets/1
+
+### Obtener una chaqueta por su precio
+GET http://localhost:7575/jackets/price/100
+
+### Obtener una chaqueta por su exposor
+GET http://localhost:7575/jackets/exposor/MERCEDES
+
+### Obtener una chaqueta por su id y precio
+GET http://localhost:7575/jackets/1&price=100

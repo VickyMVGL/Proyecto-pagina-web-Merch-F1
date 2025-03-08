@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name_shirt": "Camisa de Mclaren",
+        "description_shirt": "Camisa de la escuderia Mclaren",
+        "price": 100,
+        "image_shirt": "",
+        "exposor": ["Mclaren"]
+    }
+]

@@ -1,8 +1,8 @@
 import dbLocal from "db-local";
 import crypton from "node:crypto";
 import bcrypt from 'bcryptjs';
-const {Schema} = new dbLocal("./MVC/Users");
-const Users = Schema({
+const {Schema} = new dbLocal({path: "./MVC/Users.json"});
+const Users = Schema('Users',{
     _id: {type: 'number', required: true},
     first_name: {type: 'string', required: true},
     last_name: {type: 'string', required: true},
@@ -26,7 +26,7 @@ export class UserRepository {
             Users.create({
                 _id: id,
                 first_name: user.first_name,
-                last_name: user.Last_name,
+                last_name: user.last_name,
                 email: user.email,
                 password: hash,
                 username: user.username

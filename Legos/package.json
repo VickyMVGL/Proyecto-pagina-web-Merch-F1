@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/VickyMVGL/Proyecto-pagina-web-Merch-F1/issues"
   },
-  "homepage": "https://github.com/VickyMVGL/Proyecto-pagina-web-Merch-F1#readme"
+  "homepage": "https://github.com/VickyMVGL/Proyecto-pagina-web-Merch-F1#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "zod": "^3.24.2"
+  }
 }

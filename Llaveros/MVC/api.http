@@ -1,0 +1,20 @@
+### Obtener todas las llaves
+GET http://localhost:5555/keys
+
+### Obtener una llave por su id
+GET http://localhost:5555/keys/1
+
+### Obtener una llave por su nombre
+GET http://localhost:5555/keys/name/Llave de ferrari
+
+### Obtener una llave por su precio
+GET http://localhost:5555/keys/price/100
+
+### Obtener una llave por su exposor
+GET http://localhost:5555/keys/exposor/FERRARI
+
+### Obtener una llave por su id y precio
+GET http://localhost:5555/keys/1&price=100
+
+### Obtener una llave por su id y nombre
+GET http://localhost:5555/keys/1&name=Llave de ferrari

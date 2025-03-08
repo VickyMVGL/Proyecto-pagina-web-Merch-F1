@@ -28,7 +28,7 @@ export class KeysModels{
     static async getByName({name}){
         if(name){
             return Keys.find(key =>
-                key.name.tolowerCase() === name.toLowerCase()
+                key.name.toLowerCase() === name.toLowerCase()
             )
         }
         else{

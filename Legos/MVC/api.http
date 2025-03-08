@@ -1,0 +1,20 @@
+### Obtener todos los legos
+GET http://localhost:9595/legos
+
+### Obtener un lego por su id
+GET http://localhost:9595/legos/1
+
+### Obtener un lego por su precio
+GET http://localhost:9595/legos/price/200
+
+### Obtener un lego por su nombre
+GET http://localhost:9595/legos/name/Lego carro de mercedes
+
+### Obtener un lego por su exposor
+GET http://localhost:9595/legos/exposor/MERCEDES
+
+### Obtener un lego por su id y precio
+GET http://localhost:9595/legos/1&price=100
+
+### Obtener un lego por su id y nombre
+GET http://localhost:9595/legos/1&name=Lego carro de mercedes

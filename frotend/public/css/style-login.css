@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body{
@@ -23,4 +27,77 @@ body{
 .container-form{
     border: 2px solid green;
     width: 100%;
+}
+
+.container-form form{
+    border: 2px solid fuchsia;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-form form h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social-container{
+    display: flex;  
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.social-container ion-icon{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.container-form form span{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.container-input{
+    border: 2px solid red;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    padding: 0 15px;
+
+}
+
+.container-input input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.container-form a{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.btn{
+    width: 170px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #3ab397;
+    color: white;
+
 }

@@ -1,6 +1,12 @@
-const btn = document.getElementById('btn-change');
 const container = document.querySelector('.container');
+const btn_sing_in = document.getElementById('btn-sing-in');
+const btn_sing_up = document.getElementById('btn-sing-up');
 
-btn.addEventListener('click', () => {
-    container.classList.toggle('toggle');
+btn_sing_in.addEventListener('click', () => {
+    container.classList.remove('toggle');
 });
+
+btn_sing_up.addEventListener('click', () => {
+    container.classList.add('toggle');
+});
+

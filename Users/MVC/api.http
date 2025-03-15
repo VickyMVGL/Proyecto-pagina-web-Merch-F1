@@ -1,0 +1,20 @@
+### Crear un nuevo usuario
+POST http://localhost:7575/Users/register
+Content-Type: application/json
+
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "JohnDoe@gmail.com",
+    "password": "12345678",
+    "username": "johndoe"
+}
+
+### Iniciar sesión
+POST http://localhost:7575/Users/login
+Content-Type: application/json
+
+{
+    "email": "JohnDoe@gmail.com",
+    "password": "12345679"
+}

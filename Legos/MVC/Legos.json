@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Lego carro de mercedes",
+        "price": 200,
+        "description": "Lego carro de mercedes con logo bordado",
+        "image": "",
+        "exposor": ["mercedes"]
+    },
+    {
+        "id": 2,
+        "name": "Lego carro de ferrari",
+        "price": 300,
+        "description": "Lego carro de ferrari con logo bordado",
+        "image": "",
+        "exposor": ["ferrari"]
+    },
+    {
+        "id": 3,
+        "name": "Lego carro de porsche",
+        "price": 400,
+        "description": "Lego carro de porsche con logo bordado",
+        "image": "",
+        "exposor": ["porsche"]
+    }
+]

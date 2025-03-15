@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Gorra de mercedes",
+        "price": 100,
+        "description": "Gorra de mercedes con logo bordado",
+        "image": "",
+        "exposor": ["mercedes"]
+    },
+    {
+        "id": 2,
+        "name": "Gorra de ferrari",
+        "price": 200,
+        "description": "Gorra de ferrari con logo bordado",
+        "image": "",
+        "exposor": ["ferrari"]
+    },
+    {
+        "id": 3,
+        "name": "Gorra de porsche",
+        "price": 300,
+        "description": "Gorra de porsche con logo bordado",
+        "image": "",
+        "exposor": ["porsche"]
+    }
+]

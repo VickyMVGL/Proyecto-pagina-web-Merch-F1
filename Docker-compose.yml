@@ -1,0 +1,35 @@
+services:
+  Users:
+    build: ./Users
+    ports:
+      - "7575:7575"
+  
+  Llaveros:
+    build: ./Llaveros
+    ports:
+      - "5555:5555"
+  
+  Legos:
+    build: ./Legos
+    ports:
+      - "9595:9595"
+  
+  Gorras:
+    build: ./Gorras
+    ports:
+      - "8585:8585"
+  
+  Chaquetas:
+    build: ./Chaquetas
+    ports:
+      - "7000:7000"
+  
+  Camisas:
+    build: ./Camisas
+    ports:
+      - "2005:2005"
+  
+  Frotend:
+    build: ./frotend
+    ports:
+      - "3000:80"

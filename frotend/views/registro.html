@@ -10,7 +10,7 @@
 
     <div class="container">
         <div class="container-form">
-            <form class="sing-in">
+            <form class="sing-in" id="Form--Login">
 
                 <h2>Iniciar Sesion</h2>
                 <div class="social-container">
@@ -22,11 +22,11 @@
 
                 <div class="container-input">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" placeholder="correo">
+                    <input type="email" id="Email--login" name="Email--login" placeholder="correo" required>
                 </div>
                 <div class="container-input">
                     <ion-icon name="lock-closed-outline"></ion-icon>
-                    <input type="password" placeholder="Contraseña">
+                    <input type="password" id="password--login" name="password--login" placeholder="Contraseña" required>
                 </div>
                 <a href="#">¿Olvidaste tu contraseña?</a>
                 <button class="btn">Iniciar Sesion</button>
@@ -34,7 +34,7 @@
             </form>
         </div>
         <div class="container-form">
-            <form class="sing-up">
+            <form class="sing-up" id="Form--Register">
                 <h2>Registrarse</h2>
                 <div class="social-container">
                     <ion-icon name="logo-instagram"></ion-icon>
@@ -43,24 +43,24 @@
                 </div>
                 <div class="container-input">
                     <ion-icon name="person-outline"></ion-icon>
-                    <input type="text" name="first-name" placeholder="Nombre">
+                    <input type="text" id="first-name" name="first-name" placeholder="Nombre" required>
                 </div>
                 <div class="container-input">
                     <ion-icon name="person-add-outline"></ion-icon>
-                    <input type="text" name="last-name" placeholder="Apellido">
+                    <input type="text" id="last-name" name="last-name" placeholder="Apellido" required>
                 </div>
                 <div class="container-input">
                     <ion-icon name="person-circle-outline"></ion-icon>
-                    <input type="text" name="username" placeholder="usuario">
+                    <input type="text" id="username" name="username" placeholder="usuario" required>
                 </div>
 
                 <div class="container-input">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" name="email" placeholder="correo">
+                    <input type="email" id="email--register" name="email--register" placeholder="correo" required>
                 </div>
                 <div class="container-input">
                     <ion-icon name="lock-closed-outline"></ion-icon>
-                    <input type="password" name="password" placeholder="Contraseña">
+                    <input type="password" id="password--register" name="password--register" placeholder="Contraseña" required>
                 </div>
                 <button class="btn">Registrarse</button>
             </form>

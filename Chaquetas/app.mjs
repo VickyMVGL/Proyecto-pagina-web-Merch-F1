@@ -3,7 +3,7 @@ import cors from 'cors';
 import {JacketRouter} from './MVC/Routers/jacket.mjs';
 
 
-const PORT = process.env.PORT || 7575;
+const PORT = process.env.PORT || 7000;
 const app = express();
 app.use(cors());
 app.use(json());

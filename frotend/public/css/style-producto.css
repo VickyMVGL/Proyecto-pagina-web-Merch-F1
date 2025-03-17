@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+
+.container-producto {
+    display: flex;
+    height: 100vh;
+}
+
+.container-producto .img-producto{
+    width: 50%;
+    height: 100%;
+    padding: 150px 50px;
+}
+
+.container-producto .img-producto img {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-producto .info-producto {
+    padding: 150px 50px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.container-producto .info-producto h2 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    
+}
+
+.container-producto .info-producto p {
+    font-size: 25px;
+    margin: 0 0 20px 0;
+}

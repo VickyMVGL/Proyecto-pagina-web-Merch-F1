@@ -19,17 +19,19 @@
 }
 
 .btn-filtro{
-    margin: 0 0 20px 40px;
+    margin: 0px 0 20px 20px;
     padding: 0;
     width: 100%;
     background-color: transparent;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
     display: flex;
-    justify-content: left;
+    cursor: pointer;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.btn-filtro:hover{
+    color: #900a0b;
+   transition: color 0.2s;
 }
 
 .catalogo-filtros h3{
@@ -41,4 +43,36 @@
     margin: 0 0 20px 20px;
     font-size: 24px;
     color: #fff;
+}
+
+.container-catalogo .container-productos{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 150px 0 0 0;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    gap: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.card img {
+    width:  200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }

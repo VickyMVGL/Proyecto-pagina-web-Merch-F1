@@ -5,7 +5,6 @@ const btn_gorras = document.getElementById('filtro_gorras');
 const btn_legos = document.getElementById('filtro_legos');
 const btn_souvenirs = document.getElementById('filtro_souvenirs');
 
-
 async function loadShirts() {
   try {
     const response = await fetch('http://localhost:2005/shirts');
@@ -69,14 +68,14 @@ async function loadSouvenirs() {
 // Componente Card (HTML dinámico)
 function createCard(product) {
   return `
-    <div class="card">
+  <div class="card">
       <img src="${product.image}" alt="${product.name}">
       <h3>${product.name}</h3>
       <p>Precio: $${product.price}</p>
-    </div>
+      <button class="btn-comprar" id="btn_ver_producto">Ver</button>
+  </div>
   `;
 }
-
 
 //El filtro segun la categoria
 

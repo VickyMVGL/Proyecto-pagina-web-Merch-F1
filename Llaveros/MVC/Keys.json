@@ -1,27 +1,51 @@
 [
     {
         "id": 1,
-        "name": "Llave de mercedes",
-        "price": 100,
-        "description": "Llave de mercedes con logo bordado",
-        "image": "",
-        "exposor": ["mercedes"]
+        "name": "Bolso tejido F1",
+        "price": 80,
+        "description": "Bolso de formula 1 tejido a mano",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Bolso-tejido-f1.jpeg",
+        "exposor": ["F1"]
     }
     ,
     {
         "id": 2,
-        "name": "Llave de ferrari",
-        "price": 200,
-        "description": "Llave de ferrari con logo bordado",
-        "image": "",
-        "exposor": ["ferrari"]
+        "name": "Funda de celular Redbull",
+        "price": 15,
+        "description": "Funda transparente de Max verstappen en redbull",
+        "image": "../../frotend/public/images/Merch/Souvenirs/funda-redbull-max.jpeg",
+        "exposor": ["Redbull"]
     },
     {
         "id": 3,
-        "name": "Llave de porsche",
-        "price": 300,
-        "description": "Llave de porsche con logo bordado",
-        "image": "",
-        "exposor": ["porsche"]
+        "name": "Monopoly F1",
+        "price": 50,
+        "description": "Juego de Monopoly de formula 1",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Juego-monopoly-f1.jpeg",
+        "exposor": ["F1"]
+    },
+    {
+        "id": 4,
+        "name": "Llavero de Monoplaza",
+        "price": 5,
+        "description": "Llavero 2D de un monoplaza de formula 1",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Llavero-de-monoplaza.jpeg",
+        "exposor": ["F1"]
+    },
+    {
+        "id": 5,
+        "name": "Monoplaza de juguete",
+        "price": 80,
+        "description": "Monoplaza a control remoto de Charles Leclerc en Ferrari",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Monoplaza-leclerc-juguete.jpeg",
+        "exposor": ["Ferrari"]
+    },
+    {
+        "id": 6,
+        "name": "Peluche de Checo",
+        "price": 80,
+        "description": "Un peluche de checho Perez tejido a Mano",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Peluche-tejido-de-Checo-Perez.jpeg",
+        "exposor": ["Redbull"]
     }
 ]

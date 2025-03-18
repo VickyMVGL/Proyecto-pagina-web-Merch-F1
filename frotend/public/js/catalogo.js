@@ -20,7 +20,7 @@ async function loadShirts() {
 
 async function loadJackets() {
   try {
-    const response = await fetch('http://localhost:2005/shirts');
+    const response = await fetch('http://localhost:7000/jackets');
     const jackets = await response.json();
 
     const catalog = document.getElementById('catalog');
@@ -32,7 +32,7 @@ async function loadJackets() {
 
 async function loadCaps() {
   try {
-    const response = await fetch('http://localhost:2005/shirts');
+    const response = await fetch('http://localhost:8585/caps');
     const caps = await response.json();
 
     const catalog = document.getElementById('catalog');
@@ -44,7 +44,7 @@ async function loadCaps() {
 
 async function loadLegos() {
   try {
-    const response = await fetch('http://localhost:2005/shirts');
+    const response = await fetch('http://localhost:9595/legos');
     const legos = await response.json();
 
     const catalog = document.getElementById('catalog');
@@ -56,7 +56,7 @@ async function loadLegos() {
 
 async function loadSouvenirs() {
   try {
-    const response = await fetch('http://localhost:2005/shirts');
+    const response = await fetch('http://localhost:5555/keys');
     const souvenirs = await response.json();
 
     const catalog = document.getElementById('catalog');

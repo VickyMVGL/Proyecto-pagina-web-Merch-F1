@@ -1,0 +1,2 @@
+// Obtener todos los productos
+GET http://localhost:1000/products

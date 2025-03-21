@@ -1,0 +1,26 @@
+{
+  "name": "productos",
+  "version": "1.0.0",
+  "description": "Todos los productos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VickyMVGL/Proyecto-pagina-web-Merch-F1.git"
+  },
+  "author": "Jose Santana y victoria Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VickyMVGL/Proyecto-pagina-web-Merch-F1/issues"
+  },
+  "homepage": "https://github.com/VickyMVGL/Proyecto-pagina-web-Merch-F1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "zod": "^3.24.2"
+  }
+}

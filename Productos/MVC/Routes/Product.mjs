@@ -1,9 +1,9 @@
 import { Router } from 'express'
-import { ProductController } from '../controllers/ProductController.js'
+import { ControllerProducts } from '../Controllers/Product.mjs';
 import { ModelsProducts } from '../Models/Products.mjs'
 
 const router = Router();
-const controllerproduct = new ProductController({ ModelsProducts: ModelsProducts});
+const controllerproduct = new ControllerProducts({ ModelsProducts: ModelsProducts})
 export const RouterProducts = router;
 
 // GET

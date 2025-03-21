@@ -1,3 +1,0 @@
-FROM nginx:alpine
-#Me falta colocar los archivos de la app
-EXPOSE 80

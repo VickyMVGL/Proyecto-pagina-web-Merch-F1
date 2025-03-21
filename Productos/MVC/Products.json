@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "name": "Bolso tejido F1",
+        "price": 80,
+        "description": "Bolso de formula 1 tejido a mano",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Bolso-tejido-f1.jpeg",
+        "exposor": ["F1"]
+    }
+    ,
+    {
+        "id": 2,
+        "name": "Funda de celular Redbull",
+        "price": 15,
+        "description": "Funda transparente de Max verstappen en redbull",
+        "image": "../../frotend/public/images/Merch/Souvenirs/funda-redbull-max.jpeg",
+        "exposor": ["Redbull"]
+    },
+    {
+        "id": 3,
+        "name": "Monopoly F1",
+        "price": 50,
+        "description": "Juego de Monopoly de formula 1",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Juego-monopoly-f1.jpeg",
+        "exposor": ["F1"]
+    },
+    {
+        "id": 4,
+        "name": "Llavero de Monoplaza",
+        "price": 5,
+        "description": "Llavero 2D de un monoplaza de formula 1",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Llavero-de-monoplaza.jpeg",
+        "exposor": ["F1"]
+    },
+    {
+        "id": 5,
+        "name": "Monoplaza de juguete",
+        "price": 80,
+        "description": "Monoplaza a control remoto de Charles Leclerc en Ferrari",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Monoplaza-leclerc-juguete.jpeg",
+        "exposor": ["Ferrari"]
+    },
+    {
+        "id": 6,
+        "name": "Peluche de Checo",
+        "price": 80,
+        "description": "Un peluche de checho Perez tejido a Mano",
+        "image": "../../frotend/public/images/Merch/Souvenirs/Peluche-tejido-de-Checo-Perez.jpeg",
+        "exposor": ["Redbull"]
+    },
+    {
+        "id": 7,
+        "name": "Chaqueta de Mclaren",
+        "description": "Chaqueta de Mclaren de color negro",
+        "price": 90,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-Mclaren-negra.jpeg",
+        "exposor": ["Mclaren"]
+    },
+    {
+        "id": 8,
+        "name": "Chaqueta de Ferrari",
+        "description": "Chaqueta de  la scuderia Ferrari de cuero",
+        "price": 100,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-cuero-ferrari.jpeg",
+        "exposor": ["Ferrari"]
+    },
+    {
+        "id": 9,
+        "name": "Chaqueta de Hamilton",
+        "description": "Chaqueta de Mercedes inspirada en Hamilton",
+        "price": 100,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-AMG-Mercedes-Lewis.jpeg",
+        "exposor": ["Mercedes"]
+    },
+    {
+        "id": 10,
+        "name": "Chaqueta de Renault",
+        "description": "Chaqueta de Renault de Fernando Alonso",
+        "price": 120,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-renault.jpeg",
+        "exposor": ["Renault"]
+    },
+    {
+        "id": 11,
+        "name": "Chaqueta de Williams",
+        "description": "Chaqueta de Williams 2024",
+        "price": 90,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-williams-racing-blanca.jpeg",
+        "exposor": ["Williams"]
+    },
+    {
+        "id": 12,
+        "name": "Chaqueta de Redbull",
+        "description": "Chaqueta del Redbull blanco y azul",
+        "price": 100,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
+        "exposor": ["Redbull"]
+    },
+    {
+        "id": 13,
+        "name": "Camisa de Box Ferrari",
+        "description": "Camisa de Box de la escuderia Ferrari",
+        "price": 25,
+        "image": "../../frotend/public/images/Merch/Camisetas/Camiseta-box-ferrari.jpeg",
+        "exposor": ["Ferrari"]
+    },
+    {
+        "id": 14,
+        "name": "Camisa de Leclerc",
+        "description": "Camisa de Charles Leclerc en Ferrari",
+        "price": 25,
+        "image": "../../frotend/public/images/Merch/Camisetas/Camiseta-charles-leclerc.jpeg",
+        "exposor": ["Ferrari"]
+    },
+    {
+        "id": 15,
+        "name": "Camisa de Ayrton Senna",
+        "description": "Camisa hecha en honor a Ayrton Senna",
+        "price": 25,
+        "image": "../../frotend/public/images/Merch/Camisetas/Camiseta-senna.jpeg",
+        "exposor": ["Mclaren"]
+    },
+    {
+        "id": 16,
+        "name": "Camisa de Red Bull",
+        "description": "Camisa de la escuderia Red Bull",
+        "price": 60,
+        "image": "../../frotend/public/images/Merch/Camisetas/Camiseta-redbull.jpeg",
+        "exposor": ["Redbull"]
+    },
+    {
+        "id": 17,
+        "name": "Camisa Lando Norris",
+        "description": "Camisa inspirada en Lando Norris y en su monoplaza",
+        "price": 20,
+        "image": "../../frotend/public/images/Merch/Camisetas/Camiseta-lando-norris.jpeg",
+        "exposor": ["Mclaren"]
+    },
+    {
+        "id": 18,
+        "name": "Camisa de Monoplaza Ferrari",
+        "description": "Camisa de un monoplaza de la escuderia Ferrari",
+        "price": 20,
+        "image": "../../frotend/public/images/Merch/Camisetas/merch-ferrari.jpeg",
+        "exposor": ["Ferrari"]
+    }
+]

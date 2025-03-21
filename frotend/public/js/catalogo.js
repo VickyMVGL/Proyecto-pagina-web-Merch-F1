@@ -7,7 +7,7 @@ const btn_souvenirs = document.getElementById('filtro_souvenirs');
 const btn_agregar_carrito = document.getElementById('btn_ver_producto');
 let productos_formula = []
 let carrito = []
-let cuenta = 0;
+
 
 async function loadShirts() {
   try {
@@ -35,7 +35,6 @@ async function loadShirts() {
         const buttonComprar = document.querySelectorAll('.btn-comprar');
         buttonComprar.forEach((button, index) => {
           button.addEventListener('click', () => {
-              cuenta++;
               const InfoCamisas = {
                 id: productos_formula[index].id,
                 name: productos_formula[index].name,
@@ -44,7 +43,6 @@ async function loadShirts() {
               }
               carrito.push(InfoCamisas);
               localStorage.setItem('producto', JSON.stringify(carrito));
-              localStorage.setItem('cuenta', cuenta);
 
           })
         })
@@ -80,7 +78,6 @@ async function loadJackets() {
       const buttonComprar = document.querySelectorAll('.btn-comprar');
       buttonComprar.forEach((button, index) => {
         button.addEventListener('click', () => {
-            cuenta++;
             const InfoChaquetas = {
               id: productos_formula[index].id,
               name: productos_formula[index].name,
@@ -90,7 +87,6 @@ async function loadJackets() {
             
             carrito.push(InfoChaquetas);
             localStorage.setItem('producto', JSON.stringify(carrito));  
-            localStorage.setItem('cuenta', cuenta);
         })
       })
     }
@@ -126,7 +122,6 @@ async function loadCaps() {
       const buttonComprar = document.querySelectorAll('.btn-comprar');
       buttonComprar.forEach((button, index) => {
         button.addEventListener('click', () => {
-            cuenta++;
             const InfoGorras = {
               id: productos_formula[index].id,
               name: productos_formula[index].name,
@@ -135,7 +130,6 @@ async function loadCaps() {
             }
             carrito.push(InfoGorras);
             localStorage.setItem('producto', JSON.stringify(carrito));
-            localStorage.setItem('cuenta', cuenta);
         })
       })
     }
@@ -151,7 +145,7 @@ async function loadLegos() {
     if(respuesta.status === 200){
       const legos = await respuesta.json();
       let Legos = '';
-      productos_formula = legos.forEach(legos => {
+      productos_formula = legos.map(legos => {
         Legos += `
           <div class="card">
               <img src="${legos.image}" alt="">
@@ -171,7 +165,6 @@ async function loadLegos() {
       const buttonComprar = document.querySelectorAll('.btn-comprar');
       buttonComprar.forEach((button, index) => {
         button.addEventListener('click', () => {
-            cuenta++;
             const LegosInfo = {
               id: productos_formula[index].id,
               name: productos_formula[index].name,
@@ -181,7 +174,6 @@ async function loadLegos() {
             
             carrito.push(LegosInfo);
             localStorage.setItem('producto', JSON.stringify(carrito));
-            localStorage.setItem('cuenta', cuenta);
         })
       })
     }
@@ -215,6 +207,7 @@ async function loadKeys() {
       })
       document.getElementById('catalog').innerHTML = Llaveros;
       const buttonComprar = document.querySelectorAll('.btn-comprar');
+      console.log(buttonComprar);
       buttonComprar.forEach((button, index) => {
         button.addEventListener('click', () => {
             cuenta++;
@@ -226,7 +219,6 @@ async function loadKeys() {
             }
             carrito.push(InfoLlaveros);
             localStorage.setItem('producto', JSON.stringify(carrito));
-            localStorage.setItem('cuenta', cuenta);
         })
       })
     }
@@ -260,9 +252,9 @@ async function loadALL(){
       
       document.getElementById('catalog').innerHTML = Productos;
       const buttonComprar = document.querySelectorAll('.btn-comprar');
+      console.log(buttonComprar);
       buttonComprar.forEach((button, index) => {
         button.addEventListener('click', () => {
-          cuenta++;
           const info = {
             id: productos_formula[index].id,
             name: productos_formula[index].name,
@@ -271,7 +263,8 @@ async function loadALL(){
           }
           carrito.push(info);
           localStorage.setItem('producto', JSON.stringify(carrito));
-          localStorage.setItem('cuenta', cuenta);
+          const producto = JSON.parse(localStorage.getItem('producto'));
+          console.log(producto);
         })
       })
 

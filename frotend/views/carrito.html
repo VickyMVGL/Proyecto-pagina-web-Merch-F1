@@ -8,17 +8,26 @@
     <title>Carrito</title>
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <a href="/frotend/views/index.html"><img src="../public/images/logo.png" class="logo" alt="Logo"></a>
         <nav class="navbar">
             <a href="/frotend/views/index.html" class="active">Inicio</a>
             <a href="/frotend/views/catalogo.html">Catalogo</a>
             <a href="/frotend/views/registro.html">Mi cuenta</a>
-            <a href="#"><img src="../public/images/carrito.png" class="logo" alt="carrito de compras"></a>
+            <a href="/frotend/views/carrito.html"><img src="../public/images/carrito.png" class="logo" alt="carrito de compras"></a>
         </nav>
-    </header>
+    </header> -->
 
-    <div class="container-carrito">
+    <div class="carrito-icono">
+        🛒 <span id="carrito-contador">0</span>
+      </div>
+      
+      <!-- En tu página del carrito -->
+      <div class="carrito-container" id="carrito">
+        <div id="carrito-lista"></div>
+        <div id="carrito-total"></div>
+      </div>
+    <!-- <div class="container-carrito">
         <div class="info-carrito">
             <h3 class="total">Total: 120$</h3>
             <button class="btn-comprar">Comprar</button>
@@ -37,6 +46,8 @@
                 <button class="btn-comprar">Eliminar</button>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <script src="../public/js/catalogo.js"></script>
 </body>
 </html>

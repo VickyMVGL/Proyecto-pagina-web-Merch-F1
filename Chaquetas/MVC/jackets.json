@@ -1,34 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Chaqueta de red Bull",
-        "description": "Chaqueta de red Bull",
-        "price": 100,
-        "imagen": "",
-        "exposor": ["redbull"]
+        "name": "Chaqueta de Mclaren",
+        "description": "Chaqueta de Mclaren de color negro",
+        "price": 90,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-Mclaren-negra.jpeg",
+        "exposor": ["Mclaren"]
     },
     {
         "id": 2,
         "name": "Chaqueta de Ferrari",
-        "description": "Chaqueta de Ferrari",
+        "description": "Chaqueta de  la scuderia Ferrari de cuero",
         "price": 100,
-        "imagen": "",
-        "exposor": ["ferrari"]
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-cuero-ferrari.jpeg",
+        "exposor": ["Ferrari"]
     },
     {
         "id": 3,
-        "name": "Chaqueta de Mercedes",
-        "description": "Chaqueta de Mercedes",
+        "name": "Chaqueta de Hamilton",
+        "description": "Chaqueta de Mercedes inspirada en Hamilton",
         "price": 100,
-        "imagen": "",
-        "exposor": ["mercedes"]
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-AMG-Mercedes-Lewis.jpeg",
+        "exposor": ["Mercedes"]
     },
     {
         "id": 4,
-        "name": "Chaqueta de Mclaren",
-        "description": "Chaqueta de Mclaren",
+        "name": "Chaqueta de Renault",
+        "description": "Chaqueta de Renault de Fernando Alonso",
+        "price": 120,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-renault.jpeg",
+        "exposor": ["Renault"]
+    },
+    {
+        "id": 5,
+        "name": "Chaqueta de Williams",
+        "description": "Chaqueta de Williams 2024",
+        "price": 90,
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-williams-racing-blanca.jpeg",
+        "exposor": ["Williams"]
+    },
+    {
+        "id": 6,
+        "name": "Chaqueta de Redbull",
+        "description": "Chaqueta del Redbull blanco y azul",
         "price": 100,
-        "imagen": "",
-        "exposor": ["mclaren"]
+        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
+        "exposor": ["Redbull"]
     }
 ]

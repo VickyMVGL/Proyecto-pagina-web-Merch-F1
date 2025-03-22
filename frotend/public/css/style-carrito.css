@@ -83,3 +83,19 @@
 .container-carrito .info-producto-carrito .info-producto h3 {
     font-size: 25px;
 }
+
+.btn-comprar-definitivo {
+    margin-top: 0;
+    background-color:#900a0b;
+    border: none;
+    color:white;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    text-decoration: none;
+}

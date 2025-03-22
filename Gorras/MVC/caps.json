@@ -1,26 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Gorra de mercedes",
-        "price": 100,
-        "description": "Gorra de mercedes con logo bordado",
-        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
-        "exposor": ["mercedes"]
+        "name": "Gorra Fernando Alonso",
+        "price": 50,
+        "description": "Gorra Fernando Alonso",
+        "image": "../../frotend/public/images/Merch/Gorras/gorra-aston-martin-fernando.jpeg",
+        "exposor": ["Aston Martin"]
     },
     {
         "id": 2,
-        "name": "Gorra de ferrari",
-        "price": 200,
-        "description": "Gorra de ferrari con logo bordado",
-        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
-        "exposor": ["ferrari"]
+        "name": "Gorra F1",
+        "price": 30,
+        "description": "Gorra F1",
+        "image": "../../frotend/public/images/Merch/Gorras/gorra-f1-negra.jpeg",
+        "exposor": ["F1"]
     },
     {
         "id": 3,
-        "name": "Gorra de porsche",
-        "price": 300,
-        "description": "Gorra de porsche con logo bordado",
-        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
-        "exposor": ["porsche"]
+        "name": "Gorra Ferrari Carlos Sainz",
+        "price": 50,
+        "description": "Gorra Ferrari Carlos Sainz",
+        "image": "../../frotend/public/images/Merch/Gorras/gorra-ferrari-carlos-sainz.jpeg",
+        "exposor": ["Ferrari"]
+    },
+    {
+        "id": 4,
+        "name": "Gorra Checo Perez Japon",
+        "price": 50,
+        "description": "Gorra Checo Perez Japon",
+        "image": "../../frotend/public/images/Merch/Gorras/gorra-redbull-checo-edicion-Japon.jpeg",
+        "exposor": ["RedBull"]
+    },
+    {
+        "id": 5,
+        "name": "Gorra Max Verstappen",
+        "price": 50,
+        "description": "Gorra Max Verstappen",
+        "image": "../../frotend/public/images/Merch/Gorras/gorra-redbull-max-verstappen.jpeg",
+        "exposor": ["RedBull"]
+    },
+    {
+        "id": 6,
+        "name": "Gorra Williams Racing",
+        "price": 35,
+        "description": "Gorra Williams Racing",
+        "image": "../../frotend/public/images/Merch/Gorras/gorra-Williams.jpeg",
+        "exposor": ["Williams"]
     }
 ]

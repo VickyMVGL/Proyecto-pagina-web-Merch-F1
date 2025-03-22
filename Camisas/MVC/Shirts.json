@@ -36,7 +36,7 @@
         "name": "Camisa Lando Norris",
         "description": "Camisa inspirada en Lando Norris y en su monoplaza",
         "price": 20,
-        "image": "../../frotend/public/images/Merch/Camisetas/Camiseta-lando-norris.jpeg",
+        "image": "../../frotend/public/images/Merch/Camisetas/camiseta-lando-norris-blanca.jpeg",
         "exposor": ["Mclaren"]
     },
     {

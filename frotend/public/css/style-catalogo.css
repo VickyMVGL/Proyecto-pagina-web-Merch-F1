@@ -72,6 +72,8 @@ body{
     justify-self: center;
     align-items: center;
     border-radius: 15px;
+    padding: 15px;
+    text-align: center;
 }
 
 .card img {

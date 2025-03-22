@@ -1,26 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Lego carro de mercedes",
-        "price": 200,
-        "description": "Lego carro de mercedes con logo bordado",
-        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
-        "exposor": ["mercedes"]
+        "name": "Personaje de Gilles Villeneuve 1982 lego",
+        "price": 30,
+        "description": "Lego del personaje de Gilles Villenueve en ferrari 1982",
+        "image": "../../frotend/public/images/Merch/Legos/Gilles-Villeneuve-1982-lego.jpeg",
+        "exposor": ["Ferrari"]
     },
     {
         "id": 2,
-        "name": "Lego carro de ferrari",
-        "price": 300,
-        "description": "Lego carro de ferrari con logo bordado",
-        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
-        "exposor": ["ferrari"]
+        "name": "Monoplaza MClaren 2024 lego",
+        "price": 60,
+        "description": "Monoplaza MClaren 2024 lego",
+        "image": "../../frotend/public/images/Merch/Legos/Lego-Mclaren-2024.jpeg",
+        "exposor": ["MClaren"]
     },
     {
         "id": 3,
-        "name": "Lego carro de porsche",
-        "price": 400,
-        "description": "Lego carro de porsche con logo bordado",
-        "image": "../../frotend/public/images/Merch/Chaquetas/Chaqueta-redbull.jpeg",
-        "exposor": ["porsche"]
+        "name": "Monoplaza MClaren Senna",
+        "price": 120,
+        "description": "Monoplaza MClaren Senna",
+        "image": "../../frotend/public/images/Merch/Legos/Lego-mclaren-senna.jpeg",
+        "exposor": ["MClaren"]
+    },
+    {
+        "id": 4,
+        "name": "Pack de 5 f1 Lego",
+        "price": 250,
+        "description": "Pack de 5 f1 lego",
+        "image": "../../frotend/public/images/Merch/Legos/Pack-5-f1-lego.jpeg",
+        "exposor": ["F1"]
+    },
+    {
+        "id": 5,
+        "name": "Personaje RedBull Lego",
+        "price": 10,
+        "description": "Personaje RedBull Lego",
+        "image": "../../frotend/public/images/Merch/Legos/perosnaje-redbull-lego.jpeg",
+        "exposor": ["RedBull"]
+    },
+    {
+        "id": 6,
+        "name": "Personaje Fernando Alonso Lego",
+        "price": 30,
+        "description": "Personaje Fernando Alonso Lego",
+        "image": "../../frotend/public/images/Merch/Legos/personaje-alonso-lego.jpeg",
+        "exposor": ["Renault"]
     }
 ]
